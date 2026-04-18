@@ -1,0 +1,60 @@
+{
+  "personal": {
+    "name": "Mradul Sharma",
+    "email": "mradul@example.com",
+    "phone": "+91-9876543210",
+    "location": "Ghaziabad, UP, India",
+    "linkedin": "linkedin.com/in/mradul",
+    "github": "github.com/mradul",
+    "summary": "Full-stack developer with experience in building web applications. Passionate about learning new technologies and solving problems with code."
+  },
+  "experience": [
+    {
+      "company": "Acme Tech Solutions",
+      "role": "Software Developer Intern",
+      "startDate": "Jun 2025",
+      "endDate": "Present",
+      "location": "Remote",
+      "highlights": [
+        "Worked on the vendor management dashboard using React and Node.js",
+        "Helped build REST APIs for technician scheduling and payment processing",
+        "Fixed bugs and improved performance of existing codebase"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "XYZ University",
+      "degree": "Bachelor of Technology",
+      "field": "Computer Science",
+      "startDate": "2022",
+      "endDate": "2026",
+      "gpa": "8.5/10",
+      "highlights": [
+        "Relevant coursework: Data Structures, Algorithms, Web Development, DBMS"
+      ]
+    }
+  ],
+  "skills": {
+    "languages": ["TypeScript", "JavaScript", "Python", "Java", "SQL"],
+    "frameworks": ["React", "Node.js", "Express", "Next.js", "Tailwind CSS"],
+    "tools": ["Git", "VS Code", "Docker", "PostgreSQL", "MongoDB", "Claude AI"]
+  },
+  "projects": [
+    {
+      "name": "Resume Generator Agent",
+      "description": "AI-powered CLI tool that generates professional resumes using Claude Agent SDK. Takes structured JSON input and produces ATS-friendly HTML resumes.",
+      "techStack": ["TypeScript", "Claude Agent SDK", "Node.js"],
+      "link": "github.com/mradul/resume-generator"
+    },
+    {
+      "name": "Vendor Management System",
+      "description": "Web app for managing vendor payments and technician scheduling. Supports hourly and flat-rate payment models.",
+      "techStack": ["React", "Node.js", "PostgreSQL", "Express"],
+      "link": "github.com/mradul/vendor-mgmt"
+    }
+  ],
+  "certifications": [
+    "AWS Cloud Practitioner (2025)"
+  ]
+}
