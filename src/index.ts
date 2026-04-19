@@ -71,6 +71,8 @@ For reference, here's the expected JSON structure:
       systemPrompt: SYSTEM_PROMPT,
       // Allow the agent to read files and write output
       tools: ["Read", "Write", "Bash"],
+      // Auto-approve these tools so the agent runs without permission prompts
+      allowedTools: ["Read", "Write", "Bash"],
       // Max turns before the agent stops
       maxTurns: 15,
       // Use your preferred model (defaults to sonnet)
