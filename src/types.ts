@@ -2,6 +2,7 @@
 
 export interface PersonalInfo {
   name: string;
+  place: string; // added new 
   email: string;
   phone: string;
   location: string;
